@@ -1,0 +1,140 @@
+.hero {
+    background-image: url('https://via.placeholder.com/1900x500');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.features h3 {
+    color: #007bff;
+}
+
+.cta {
+    background-color: #f8f9fa;
+}
+
+
+.hover-effect {
+    transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: translateX(5px);
+    color: #007bff;
+}
+
+.card-img-top {
+    height: 200px; /* Ajusta esto según tus necesidades */
+    object-fit: cover;
+}
+.icon-img {
+    width: 30px;
+    height: auto;
+}
+
+.card-footer {
+    padding-top: 0;
+}
+
+/* Estilos generales para las cards */
+.card {
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Acento de color en la parte superior de las cards */
+.card-accent {
+    height: 4px;
+    width: 100%;
+}
+
+/* Estilos para los bordes y acentos de color */
+.border-green {
+    border-color: #28a745;
+}
+
+.border-yellow {
+    border-color: #ffc107;
+}
+
+.border-blue {
+    border-color: #007bff;
+}
+
+.border-red {
+    border-color: #dc3545;
+}
+
+.bg-green {
+    background-color: #28a745;
+}
+
+.bg-yellow {
+    background-color: #ffc107;
+}
+
+.bg-blue {
+    background-color: #007bff;
+}
+
+.bg-red {
+    background-color: #dc3545;
+}
+
+
+.brand-logos {
+    background-color: #f8f9fa;
+}
+
+.brand-logos img {
+    max-height: 80px; /* Aumentado de 50px a 80px */
+    width: auto;
+    transition: filter 0.3s ease-in-out;
+    object-fit: contain; /* Asegura que la imagen se ajuste manteniendo su proporción */
+}
+
+.grayscale {
+    filter: grayscale(100%) opacity(0.6);
+}
+
+.grayscale:hover {
+    filter: grayscale(0%) opacity(1);
+}
+
+.prefooter {
+    background-color: #f8f9fa;
+}
+
+.prefooter h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.prefooter ul li {
+    font-size: 1.1rem;
+    color: #555;
+    transition: transform 0.2s ease-in-out;
+}
+
+.prefooter ul li:hover {
+    transform: translateX(5px);
+}
+
+.prefooter i {
+    font-size: 1.2rem;
+}
+
+.prefooter img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.prefooter img:hover {
+    transform: scale(1.05);
+}
