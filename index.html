@@ -13,8 +13,6 @@
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         
-
-
 </head>
 
 <body>
@@ -22,7 +20,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="https://via.placeholder.com/1280x720" alt="Yartech Logo" height="40" class="d-inline-block align-top">
+                    <img src="img/yartech.png" alt="Yartech Logo" height="40" class="d-inline-block align-top">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -55,36 +53,90 @@
                     <a href="#" class="btn btn-primary btn-lg">Contáctanos</a>
                 </div>
                 <div class="mt-5 d-flex justify-content-center align-items-center">
-                    <img src="https://via.placeholder.com/1280x720" alt="YARTECH Logo" class="me-3" style="height: 50px;">
-                    <span class="fs-4 fw-bold">YARTECH</span>
+                    <img src="img/yartech.png" alt="YARTECH Logo" class="me-3" style="height: 50px;">
+                    <span class="fs-4 fw-bold"></span>
                     <span class="mx-3">|</span>
                     <span class="fs-5">Distribuidor oficial de</span>
-                    <img src="https://via.placeholder.com/1280x720" alt="3M Logo" class="ms-3" style="height: 40px;">
+                    <img src="img/3m.svg" alt="3M Logo" class="ms-3" style="height: 40px;">
                 </div>
             </div>
         </section>
         
-
-
+        <section class="our-products py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">NUESTROS PRODUCTOS</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm hover-zoom border-green">
+                            <div class="card-accent bg-green"></div>
+                            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Láminas Control Solar">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Láminas Control Solar</h3>
+                                <p class="card-text">Reduce el calor y protege contra los rayos UV</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm hover-zoom border-blue">
+                            <div class="card-accent bg-blue"></div>
+                            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Láminas de Seguridad">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Láminas de Seguridad</h3>
+                                <p class="card-text">Protección contra roturas y entrada forzada</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         <section class="features py-5 bg-light">
             <div class="container">
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-3">
-                        <div class="card h-100 shadow-sm border-green">
+                        <div class="card h-100 shadow-sm border-green hover-lift">
                             <div class="card-accent bg-green"></div>
-                            <!-- Contenido de la card -->
                             <img src="https://via.placeholder.com/1280x720" class="card-img-top" alt="Energía">
                             <div class="card-body">
-                                <h3 class="card-title">ENERGIA</h3>
-                                <h6 class="card-subtitle mb-2 text-muted">Eficiencia energética</h6>
-                                <ul class="card-text list-unstyled">
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Reduzca las facturas de calefacción y refrigeración hasta en un 10%</li>
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Reduce las temperaturas hasta 5°C</li>
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Reducción de la huella de carbono</li>
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Gana puntos LEED</li>
+                                <h3 class="card-title text-primary mb-3"><i class="fas fa-bolt me-2"></i>ENERGIA</h3>
+                                <h6 class="card-subtitle mb-3 text-muted fw-light">Eficiencia energética</h6>
+                                <div class="accordion" id="accordionEnergy">
+                                    <div class="accordion-item border-0">
+                                        <h2 class="accordion-header" id="headingEnergy">
+                                            <button class="accordion-button collapsed p-0 bg-transparent text-primary d-flex justify-content-center align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEnergy" aria-expanded="false" aria-controls="collapseEnergy">
+                                                Ver más
+                                            </button>
+                                            
+                                        </h2>
+                                        <div id="collapseEnergy" class="accordion-collapse collapse" aria-labelledby="headingEnergy" data-bs-parent="#accordionEnergy">
+                                            <div class="accordion-body px-0 pt-3">
+                                                <p class="card-text mb-4 text-muted">Las ventanas suelen ser la parte más ineficiente de una casa o edificio. Las películas para ventanas de 3M pueden reducir esas ineficiencias para crear un entorno más cómodo y económico. La película Thinsulate Climate Control 75 de 3M es como agregar un panel de vidrio adicional a su ventana.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="card-text list-unstyled mt-4">
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-percentage text-success me-3 fa-lg"></i>
+                                        <span class="text-muted">Reduce facturas de calefacción y refrigeración hasta un 10%</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-thermometer-half text-danger me-3 fa-lg"></i>
+                                        <span class="text-muted">Reduce temperaturas hasta 5°C</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-leaf text-success me-3 fa-lg"></i>
+                                        <span class="text-muted">Reducción de la huella de carbono</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-certificate text-warning me-3 fa-lg"></i>
+                                        <span class="text-muted">Gana puntos LEED</span>
+                                    </li>
                                 </ul>
                             </div>
-                            <div class="card-footer bg-transparent border-top-0">
+                            <!-- <div class="card-footer bg-transparent border-top-0">
                                 <div class="d-flex justify-content-between">
                                     <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 1" class="icon-img">
                                     <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 2" class="icon-img">
@@ -92,95 +144,134 @@
                                     <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 4" class="icon-img">
                                     <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 5" class="icon-img">
                                 </div>
-                            </div>
-        
+                            </div> -->
                         </div>
+                        
                     </div>
+                    <!-- Repeat for other cards -->
                     <div class="col-md-6 col-lg-3">
-                        <div class="card h-100 shadow-sm border-yellow">
-                            <div class="card-accent bg-yellow"></div>
-                            <!-- Contenido de la card -->
-                            <img src="https://via.placeholder.com/1280x720" class="card-img-top" alt="Energía">
-                            <div class="card-body">
-                                <h3 class="card-title">ENERGIA</h3>
-                                <h6 class="card-subtitle mb-2 text-muted">Eficiencia energética</h6>
-                                <ul class="card-text list-unstyled">
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Reduzca las facturas de calefacción y refrigeración hasta en un 10%</li>
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Reduce las temperaturas hasta 5°C</li>
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Reducción de la huella de carbono</li>
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Gana puntos LEED</li>
-                                </ul>
-                            </div>
-                            <div class="card-footer bg-transparent border-top-0">
-                                <div class="d-flex justify-content-between">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 1" class="icon-img">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 2" class="icon-img">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 3" class="icon-img">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 4" class="icon-img">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 5" class="icon-img">
-                                </div>
-                            </div>
-        
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="card h-100 shadow-sm border-blue">
+                        <div class="card h-100 shadow-sm border-blue hover-lift">
                             <div class="card-accent bg-blue"></div>
-                            <!-- Contenido de la card -->
-                            <img src="https://via.placeholder.com/1280x720" class="card-img-top" alt="Energía">
+                            <img src="https://via.placeholder.com/1280x720" class="card-img-top" alt="Seguridad">
                             <div class="card-body">
-                                <h3 class="card-title">ENERGIA</h3>
-                                <h6 class="card-subtitle mb-2 text-muted">Eficiencia energética</h6>
-                                <ul class="card-text list-unstyled">
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Reduzca las facturas de calefacción y refrigeración hasta en un 10%</li>
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Reduce las temperaturas hasta 5°C</li>
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Reducción de la huella de carbono</li>
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Gana puntos LEED</li>
+                                <h3 class="card-title text-primary mb-3"><i class="fas fa-shield-alt me-2"></i>SEGURIDAD</h3>
+                                <h6 class="card-subtitle mb-3 text-muted fw-light">Protección de ventanas</h6>
+                                <div class="accordion" id="accordionSecuritys">
+                                    <div class="accordion-item border-0">
+                                        <h2 class="accordion-header" id="headingSecurity">
+                                            <button class="accordion-button collapsed p-0 bg-transparent text-primary d-flex justify-content-center align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSecurity" aria-expanded="false" aria-controls="collapseSecurity">
+                                                Ver más
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSecurity" class="accordion-collapse collapse" aria-labelledby="headingSecurity" data-bs-parent="#accordionSecurity">
+                                            <div class="accordion-body px-0 pt-3">
+                                                <p class="card-text mb-4 text-muted">Las ventanas suelen ser la parte más vulnerable de su casa o edificio. Las películas para ventanas 3M Scotchshield Safety & Security pueden abordar las vulnerabilidades de una ventana ayudando a mantener los vidrios rotos en su lugar. Le ayudan a proteger a las personas, la propiedad y la continuidad de las operaciones.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="card-text list-unstyled mt-4">
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-glass-martini-alt text-primary me-3 fa-lg"></i>
+                                        <span class="text-muted">Convierta el vidrio estándar en vidrio de seguridad</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-lock text-danger me-3 fa-lg"></i>
+                                        <span class="text-muted">Retrasar la entrada no deseada por intrusión forzada</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-hand-holding-heart text-success me-3 fa-lg"></i>
+                                        <span class="text-muted">Ayude a prevenir lesiones en caso de un desastre natural o acto vandálico</span>
+                                    </li>
                                 </ul>
                             </div>
-                            <div class="card-footer bg-transparent border-top-0">
-                                <div class="d-flex justify-content-between">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 1" class="icon-img">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 2" class="icon-img">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 3" class="icon-img">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 4" class="icon-img">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 5" class="icon-img">
-                                </div>
-                            </div>
-        
                         </div>
                     </div>
+                    
+
                     <div class="col-md-6 col-lg-3">
-                        <div class="card h-100 shadow-sm border-red">
-                            <div class="card-accent bg-red"></div>
-                            <!-- Contenido de la card -->
-                            <img src="https://via.placeholder.com/1280x720" class="card-img-top" alt="Energía">
+                        <div class="card h-100 shadow-sm border-blue hover-lift">
+                            <div class="card-accent bg-blue"></div>
+                            <img src="https://via.placeholder.com/1280x720" class="card-img-top" alt="Confort y Estilo">
                             <div class="card-body">
-                                <h3 class="card-title">ENERGIA</h3>
-                                <h6 class="card-subtitle mb-2 text-muted">Eficiencia energética</h6>
-                                <ul class="card-text list-unstyled">
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Reduzca las facturas de calefacción y refrigeración hasta en un 10%</li>
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Reduce las temperaturas hasta 5°C</li>
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Reducción de la huella de carbono</li>
-                                    <li class="mb-2 hover-effect"><i class="fas fa-check text-success me-2"></i>Gana puntos LEED</li>
+                                <h3 class="card-title text-primary mb-3"><i class="fas fa-couch me-2"></i>CONFORT</h3>
+                                <h6 class="card-subtitle mb-3 text-muted fw-light">ESTILO</h6>
+                                <div class="accordion" id="accordionComfort">
+                                    <div class="accordion-item border-0">
+                                        <h2 class="accordion-header" id="headingComfort">
+                                            <button class="accordion-button collapsed p-0 bg-transparent text-primary d-flex justify-content-center align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseComfort" aria-expanded="false" aria-controls="collapseComfort">
+                                                Ver más
+                                            </button>
+                                        </h2>
+                                        <div id="collapseComfort" class="accordion-collapse collapse" aria-labelledby="headingComfort" data-bs-parent="#accordionComfort">
+                                            <div class="accordion-body px-0 pt-3">
+                                                <p class="card-text mb-4 text-muted">Las películas para ventanas 3M mejoran el confort y el estilo de su hogar o edificio, proporcionando un ambiente más agradable y una apariencia moderna.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="card-text list-unstyled mt-4">
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-temperature-low text-primary me-3 fa-lg"></i>
+                                        <span class="text-muted">Control de temperatura para mayor comodidad</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-tint-slash text-danger me-3 fa-lg"></i>
+                                        <span class="text-muted">Reducción de deslumbramiento para mejor visibilidad</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-paint-brush text-success me-3 fa-lg"></i>
+                                        <span class="text-muted">Mejora la estética de ventanas y fachadas</span>
+                                    </li>
                                 </ul>
                             </div>
-                            <div class="card-footer bg-transparent border-top-0">
-                                <div class="d-flex justify-content-between">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 1" class="icon-img">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 2" class="icon-img">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 3" class="icon-img">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 4" class="icon-img">
-                                    <img src="https://epdwindowfilm.com/wp-content/uploads/2020/04/car-2_0006_energy.png" alt="Icon 5" class="icon-img">
-                                </div>
-                            </div>
-                            
                         </div>
                     </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-red hover-lift">
+                            <div class="card-accent bg-red"></div>
+                            <img src="https://via.placeholder.com/1280x720" class="card-img-top" alt="Seguridad">
+                            <div class="card-body">
+                                <h3 class="card-title text-primary mb-3"><i class="fas fa-shield-alt me-2"></i>SEGURIDAD</h3>
+                                <h6 class="card-subtitle mb-3 text-muted fw-light">Protección avanzada</h6>
+                                <div class="accordion" id="accordionSecurity">
+                                    <div class="accordion-item border-0">
+                                        <h2 class="accordion-header" id="headingSecurity">
+                                            <button class="accordion-button collapsed p-0 bg-transparent text-primary d-flex justify-content-center align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSecurity" aria-expanded="false" aria-controls="collapseSecurity">
+                                                Ver más
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSecurity" class="accordion-collapse collapse" aria-labelledby="headingSecurity" data-bs-parent="#accordionSecurity">
+                                            <div class="accordion-body px-0 pt-3">
+                                                <p class="card-text mb-4 text-muted">Las películas de seguridad 3M ofrecen una capa adicional de protección para sus ventanas, mejorando la seguridad de su hogar o negocio.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="card-text list-unstyled mt-4">
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-lock text-danger me-3 fa-lg"></i>
+                                        <span class="text-muted">Previene la entrada forzada</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-bomb text-warning me-3 fa-lg"></i>
+                                        <span class="text-muted">Protección contra explosiones</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-center">
+                                        <i class="fas fa-user-shield text-success me-3 fa-lg"></i>
+                                        <span class="text-muted">Aumenta la privacidad</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
         
+
         
         <section class="brand-logos py-5 bg-light">
             <div class="container">
@@ -240,12 +331,12 @@
         </div>
     </section>
     
-    <section class="cta bg-light py-5 text-center">
+    <!-- <section class="cta bg-light py-5 text-center">
         <div class="container">
             <h2>Ready to transform your windows?</h2>
             <a href="#" class="btn btn-primary btn-lg mt-3">Get a Quote</a>
         </div>
-    </section>
+    </section> -->
     
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
