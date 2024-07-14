@@ -54,3 +54,12 @@ document.addEventListener('keydown', function(e) {
         e.preventDefault();
     }
 });
+
+// Deshabilitar inspección de elementos
+document.addEventListener('keydown', function(e) {
+    // Bloquear Ctrl+U
+    if (e.ctrlKey && (e.key === 'u' || e.key === 'U')) {
+        e.preventDefault();
+        return false;
+    }
+});
