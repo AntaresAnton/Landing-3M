@@ -47,3 +47,10 @@ document.addEventListener('keydown', function (event) {
         return false;
     }
 });
+
+// Deshabilitar inspección de elementos
+document.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
+        e.preventDefault();
+    }
+});
