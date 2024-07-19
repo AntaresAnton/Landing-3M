@@ -7,38 +7,37 @@
     align-items: center;
 }
 
-.features h3 {
+/* .features h3 {
     color: #007bff;
-}
+} */
 
-.cta {
+/* .cta {
     background-color: #f8f9fa;
-}
+} */
 
-
-.hover-effect {
+/* .hover-effect {
     transition: all 0.3s ease;
 }
 
 .hover-effect:hover {
     transform: translateX(5px);
     color: #007bff;
-}
+} */
 
 .card-img-top {
-    height: 200px; /* Ajusta esto según tus necesidades */
+    height: 200px;
     object-fit: cover;
 }
-.icon-img {
+
+/* .icon-img {
     width: 30px;
     height: auto;
 }
 
 .card-footer {
     padding-top: 0;
-}
+} */
 
-/* Estilos generales para las cards */
 .card {
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
@@ -48,13 +47,11 @@
     transform: translateY(-5px);
 }
 
-/* Acento de color en la parte superior de las cards */
 .card-accent {
     height: 4px;
     width: 100%;
 }
 
-/* Estilos para los bordes y acentos de color */
 .border-green {
     border-color: #28a745;
 }
@@ -69,7 +66,7 @@
 
 .border-red {
     border-color: #dc3545;
-}
+} 
 
 .bg-green {
     background-color: #28a745;
@@ -85,7 +82,8 @@
 
 .bg-red {
     background-color: #dc3545;
-}
+} 
+
 
 
 .brand-logos {
@@ -93,10 +91,10 @@
 }
 
 .brand-logos img {
-    max-height: 80px; /* Aumentado de 50px a 80px */
+    max-height: 80px; 
     width: auto;
     transition: filter 0.3s ease-in-out;
-    object-fit: contain; /* Asegura que la imagen se ajuste manteniendo su proporción */
+    object-fit: contain; 
 }
 
 .grayscale {
@@ -196,7 +194,7 @@
 }
 
 
-.social-sidebar {
+/* .social-sidebar {
     position: fixed;
     right: 0;
     top: 50%;
@@ -215,7 +213,7 @@
 
 .social-sidebar a:hover {
     background-color: #000;
-}
+} */
 
 .facebook {
     background: #3B5998;
@@ -234,4 +232,39 @@
 }
 .whatsapp {
     background: #25D366;
+}
+
+
+.social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff !important;
+}
+
+
+.social-icons-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff;
+    transform: translateY(-3px);
 }
