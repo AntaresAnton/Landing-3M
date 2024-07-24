@@ -236,7 +236,7 @@
 
 
 .social-icons a {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     transition: color 0.3s ease;
 }
 
@@ -267,4 +267,23 @@
 .social-icon:hover {
     color: #007bff;
     transform: translateY(-3px);
+}
+
+
+.social-icon {
+    font-size: 24px; /* Increase the size of the icons */
+    margin: 0 10px; /* Add some spacing between icons */
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2); /* Add a hover effect */
+}
+
+.instagram-icon {
+    color: #E1306C; /* Instagram's brand color */
+}
+
+.whatsapp-icon {
+    color: #25D366; /* WhatsApp's brand color */
 }
